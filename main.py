@@ -87,8 +87,6 @@ def make_sprite(width: int = 32, height: int = 32, is_2x: bool = False):
         json.dump(stops, outfile)
 
 
-
-
 if __name__ == "__main__":
     make_sprite(32, 32, False)
     make_sprite(64, 64, True)
